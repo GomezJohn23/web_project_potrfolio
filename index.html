@@ -1,19 +1,125 @@
 <!DOCTYPE html>
-<head>
-  <meta charset="UTF-8">
-  <title>Tarjeta de perfil</title>
-</head>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Mariana Hernández</title>
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
 
-<body>
+  <body>
+    <div class="page">
+      <header class="site-header">
+        <div class="wrap header-inner">
+          <nav class="nav-links" aria-label="Navegación principal">
+            <a class="link-underline" href="#" aria-label="Descargar CV">Descargar CV</a>
+            <a class="link-underline" href="https://github.com/GomezJohn23/web_project_coffeeshop_es.git" aria-label="Enlace a GitHub">Enlace a GitHub</a>
+            <a class="link-underline" href="#contacto" aria-label="Ir a contacto">Hablemos</a>
+          </nav>
+        </div>
+      </header>
 
-<div class="container">
-    <header>
+      <main>
+        <section class="hero wrap" aria-label="Presentación">
+          <div class="hero-copy">
+            <h1 class="hero-name">John<br />Gomez</h1>
 
-    <div class="logo">johngomez@gmail.com</div>
-        
+            <p class="hero-role">Desarrolladora Full-Stack Junior | TypeScript, React, Node.js</p>
 
-    </header>
-</div>
+            <p class="hero-description">
+              Desarrolladora web junior con experiencia práctica creando interfaces limpias y responsivas con HTML, CSS,
+              JavaScript y React, así como implementando lógica básica de back-end. He trabajado en proyectos formativos
+              que siguen procesos reales de desarrollo, usando GitHub, GitHub Pages y Figma. Disfruto colaborar en equipo,
+              mantener un código claro y resolver problemas de forma estructurada. Motivada por seguir aprendiendo, asumir
+              nuevos retos y aprovechar oportunidades para crecer como desarrolladora.
+            </p>
 
-</body>
+            <div class="cta-links" aria-label="Acciones principales">
+              <a class="link-underline" href="#">Descargar CV</a>
+              <a class="link-underline" href="https://github.com/GomezJohn23/web_project_coffeeshop_es.git">Enlace a GitHub</a>
+              <a class="link-underline" href="#contacto">Hablemos</a>
+            </div>
+          </div>
+
+          <div class="hero-media" aria-label="Foto de perfil">
+            <div class="hero-photo" role="img" aria-label="Foto de John Gomez"></div>
+          </div>
+        </section>
+
+        <section class="wrap section" aria-label="Habilidades y herramientas">
+          <h2 class="section-title">Habilidades y herramientas</h2>
+
+          <div class="skills" role="list">
+            <div class="skill" role="listitem" aria-label="HTML">
+              <span class="skill-icon html" aria-hidden="true">5</span>
+            </div>
+            <div class="skill" role="listitem" aria-label="CSS">
+              <span class="skill-icon css" aria-hidden="true">3</span>
+            </div>
+            <div class="skill" role="listitem" aria-label="JavaScript">
+              <span class="skill-icon js" aria-hidden="true">JS</span>
+            </div>
+            <div class="skill" role="listitem" aria-label="Git">
+              <span class="skill-icon git" aria-hidden="true">Git</span>
+            </div>
+            <div class="skill" role="listitem" aria-label="GitHub">
+              <span class="skill-icon gh" aria-hidden="true">GH</span>
+            </div>
+            <div class="skill" role="listitem" aria-label="IA">
+              <span class="skill-icon ai" aria-hidden="true">AI</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="wrap-section" aria-label="Proyectos destacados">
+          <h2 class="section-title">Proyectos destacados</h2>
+
+          <div class="projects">
+            <article class="project-card">
+              <div class="project-cover cover-cafe" aria-hidden="true"></div>
+              <div class="project-body">
+                <h3 class="project-title">Página web de una cafetería</h3>
+                <p class="project-description">
+                  Desarrollo de una landing page responsiva para una cafetería siguiendo un brief de diseño. Incluye
+                  estructura semántica, maquetación con Flexbox, creación de secciones nuevas y un formulario de contacto
+                  funcional. Logro: implementé desde cero el diseño completo de la página, organicé el proyecto con buenas
+                  prácticas y publiqué la versión final utilizando GitHub Pages.
+                </p>
+                <div class="project-links">
+                  <a class="chip-link" href="#">Demo en vivo</a>
+                  <a class="chip-link" href="#">GitHub</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-cover cover-code" aria-hidden="true"></div>
+              <div class="project-body">
+                <h3 class="project-title">Mi proyecto</h3>
+                <p class="project-description">Descripción del proyecto</p>
+                <div class="project-links">
+                  <a class="chip-link" href="#">Demo en vivo</a>
+                  <a class="chip-link" href="#">GitHub</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <footer id="contacto" class="contact" aria-label="Contacto">
+          <div class="wrap contact-inner">
+            <h2 class="contact-title">Contacto</h2>
+            <a class="contact-email link-underline" href="mailto:student@tripleteen.com">student@tripleteen.com</a>
+
+            <div class="social" aria-label="Redes sociales">
+              <a class="social-icon" href="#" aria-label="LinkedIn">in</a>
+              <a class="social-icon" href="#" aria-label="Facebook">f</a>
+              <a class="social-icon" href="#" aria-label="Instagram">ig</a>
+              <a class="social-icon" href="#" aria-label="X">x</a>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
 </html>
